@@ -26,6 +26,7 @@ public class Steps {
 		//System.out.println("Enter the username and password");
 		driver.findElement(By.name("uid")).sendKeys("user");
 		driver.findElement(By.name("password")).sendKeys("password");
+		//Conflict testt
 	}
 	@Then("^Reset the credential$")
 	public void reset_the_credential()
