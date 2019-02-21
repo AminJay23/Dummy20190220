@@ -18,7 +18,7 @@ public class Steps {
 		//System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.demo.guru99.com/v4/");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 	}
 	@When("^Enter the Username and Password$")
 	public void enter_the_Username_and_Password()
