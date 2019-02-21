@@ -23,7 +23,7 @@ public class Steps {
 	@When("^Enter the Username and Password$")
 	public void enter_the_Username_and_Password()
 	{
-		//System.out.println("Enter the username and password");
+		System.out.println("Enter the username and password"); // Uncommite
 		driver.findElement(By.name("uid")).sendKeys("user");
 		driver.findElement(By.name("password")).sendKeys("password");
 		//Conflict testt
