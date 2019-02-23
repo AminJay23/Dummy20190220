@@ -38,6 +38,7 @@ public class Steps2 {
 		
 		
 		// New Branch from Jalpa
+		// Changes
 	}
 	@Then("^Login the credential$")
 	public void login_the_credential()
