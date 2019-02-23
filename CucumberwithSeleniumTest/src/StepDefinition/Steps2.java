@@ -32,6 +32,9 @@ public class Steps2 {
 		driver.findElement(By.name("uid")).sendKeys("user");
 		driver.findElement(By.name("password")).sendKeys("password");
 		
+		
+		
+		// New Branch from Jalpa
 	}
 	@Then("^Login the credential$")
 	public void login_the_credential()
